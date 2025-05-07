@@ -49,8 +49,8 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to dis
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
 
-START_PIC = os.environ.get("START_PIC", "")
-FORCE_PIC = os.environ.get("FORCE_PIC", "")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/CxI.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/Cxp.jpg")
 
 # Turn this feature on or off using True or False put value inside  ""
 # TRUE for yes FALSE if no 
