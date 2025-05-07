@@ -38,8 +38,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
-                     InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close')]
+                        [InlineKeyboardButton("😊 ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Filmy_Fusion01")],
+                    
+    [
+                        InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
+                        InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data='close')
+        
+    ]
                 ]
             )
         )
