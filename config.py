@@ -58,7 +58,7 @@ TOKEN = True if os.environ.get('TOKEN', "True") == "True" else False  #For Enabl
 
 #TOKEN = False if os.environ.get('TOKEN', "FALSE") == 'FALSE' else False # For disable Token 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "http://Shortxlinks.com")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Shortxlinks.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "7f4785525dda19ff748e7f92f1ad4fc7cac85a43")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
