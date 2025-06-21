@@ -37,7 +37,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Hanuman:hanuman@cluster0.
 DB_NAME = os.environ.get("DATABASE_NAME", "Hanuman")
 
 #Time in seconds for message delete, put 0 to never delete
-TIME = int(os.environ.get("TIME", "600"))
+TIME = int(os.environ.get("TIME", "1200"))
 
 
 #force sub channel id, if you want enable force sub
@@ -58,8 +58,8 @@ TOKEN = True if os.environ.get('TOKEN', "False") == "True" else False  #For Enab
 
 #TOKEN = False if os.environ.get('TOKEN', "FALSE") == 'FALSE' else False # For disable Token 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.online")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "adabe1c0675be8ffc5ccbc84a9a65bc5a5d3ec69")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "http://Shortxlinks.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "7f4785525dda19ff748e7f92f1ad4fc7cac85a43")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/hwdownload/3")
