@@ -21,15 +21,15 @@ from logging.handlers import RotatingFileHandler
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7552866622:AAH3WFSzr3cnRC11Awl3zqMhfwH1V78PMVI")
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "20421609"))
+APP_ID = int(os.environ.get("APP_ID", "28269435"))
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "17187c5466fb7044793bfa8bcaa9ec68")
+API_HASH = os.environ.get("API_HASH", "839f282133fe8ee79b4a946095cf4360")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002505290516"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002582854326"))
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "Master_HP_Raj")
+OWNER = os.environ.get("OWNER", "")
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1511468725"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6328133891"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
@@ -41,7 +41,7 @@ TIME = int(os.environ.get("TIME", "1200"))
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002282093291"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002582854326"))
 #put 0 to disable
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))#put 0 to disable
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))#put 0 to disable
