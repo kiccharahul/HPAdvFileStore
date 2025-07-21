@@ -25,7 +25,7 @@ APP_ID = int(os.environ.get("APP_ID", "28269435"))
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "839f282133fe8ee79b4a946095cf4360")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002582854326"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002584363018"))
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "CallmeNayak")
 #OWNER ID
@@ -73,7 +73,7 @@ ABOUT_TXT = "<b><blockquote>◈ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/HP_FILE
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\nɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</b>")
 try:
     ADMINS=[5977415633]
-    for x in (os.environ.get("ADMINS", "5977415633").split()):
+    for x in (os.environ.get("ADMINS", "8005648537").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
