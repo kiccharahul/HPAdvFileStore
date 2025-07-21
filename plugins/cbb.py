@@ -22,7 +22,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                        [InlineKeyboardButton("😊 ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Filmy_Fusion01")],
+                        [InlineKeyboardButton("😊 ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+r_bKvfgow4wxZDY1")],
                     
     [
                         InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
@@ -38,7 +38,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                        [InlineKeyboardButton("😊 ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Filmy_Fusion01")],
+                        [InlineKeyboardButton("😊 ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+r_bKvfgow4wxZDY1")],
                     
     [
                         InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
