@@ -72,7 +72,7 @@ ABOUT_TXT = "<b><blockquote>◈ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/HP_FILE
 
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\nɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</b>")
 try:
-    ADMINS=[5977415633]
+    ADMINS=[8005648537]
     for x in (os.environ.get("ADMINS", "8005648537").split()):
         ADMINS.append(int(x))
 except ValueError:
