@@ -65,9 +65,9 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "False")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/hwdownload/3")
 
 
-HELP_TXT = "<b><blockquote>ꜱᴏʀʀʏ ʏᴏᴜ ᴄᴀɴ'ᴛ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ\n\n×͜× ᴩᴏᴡᴇʀᴇᴅ ʙʏ : @Filmy_Fusion01</b>"
+HELP_TXT = "<b><blockquote>ꜱᴏʀʀʏ ʏᴏᴜ ᴄᴀɴ'ᴛ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ\n\n×͜× ᴩᴏᴡᴇʀᴇᴅ ʙʏ : @RKN_MOVIEZ1</b>"
 
-ABOUT_TXT = "<b><blockquote>◈ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/HP_FILESHAREBOT>ʜᴩ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ</a>\n◈ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org/>ᴩʏᴛʜᴏɴ</a>\n◈ ʟɪʙʀᴀʀʏ : <a href=https://docs.pyrogram.org/>ᴩʏʀᴏɢʀᴀᴍ</a>\n◈ ʜᴏsᴛᴇᴅ ᴏɴ: <a href=https://t.me/Filmy_Fusion01>ʜᴇʀᴏᴋᴜ</a>\n◈ ᴅᴇᴠʟᴏᴘᴇʀ : <a href=https://t.me/HP_Raj_Bot>𝐇𝐏_𝐑𝐚𝐣</a>\n◈ ꜱᴜᴩᴩᴏʀᴛ : <a href=https://t.me/Filmy_Fusion01>ꜰɪʟᴍʏ ꜰᴜꜱɪᴏɴ</a></b>"
+ABOUT_TXT = "<b><blockquote>◈ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/RKNFileStorezbot>RKNFileStorezbot</a>\n◈ ᴅᴇᴠʟᴏᴘᴇʀ : <a href=https://t.me//HP_Raj_Support_Bot>ӇƤ Ʀƛʆ</a>\n◈ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org/>ᴩʏᴛʜᴏɴ</a>\n◈ ʟɪʙʀᴀʀʏ : <a href=https://docs.pyrogram.org/>ᴩʏʀᴏɢʀᴀᴍ</a>\n◈ ʜᴏsᴛᴇᴅ ᴏɴ: <a href=https://t.me/HP_Raj_MOVIES>ʜᴇʀᴏᴋᴜ</a>\n◈ ᴏᴡɴᴇʀ : <a href=https://t.me/CallmeNayak>_RKN_</a>\n◈ ꜱᴜᴩᴩᴏʀᴛ : <a href=https://t.me/RKN_MOVIEZ1>RKN MOVIEZ1</a></b>"
 
 
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\nɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</b>")
@@ -82,7 +82,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>{filename}\n\n×͜×  ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ:- @Filmy_Fusion01</b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>{filename}\n\n×͜×  ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ:- @RKN_MOVIEZ1</b>")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
