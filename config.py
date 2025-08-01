@@ -25,11 +25,11 @@ APP_ID = int(os.environ.get("APP_ID", "28269435"))
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "839f282133fe8ee79b4a946095cf4360")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002584363018"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002752916849"))
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "CallmeNayak")
+OWNER = os.environ.get("OWNER", "Kicchanayaka")
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6328133891"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7508245094"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
@@ -41,7 +41,7 @@ TIME = int(os.environ.get("TIME", "1200"))
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002752916849"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002646467135"))
 #put 0 to disable
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))#put 0 to disable
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))#put 0 to disable
