@@ -49,8 +49,8 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to dis
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
 
-START_PIC = os.environ.get("START_PIC", "https://graph.org/file/b14be25f50a0630a100aa-7ee56c3f5abdbecbf1.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/b14be25f50a0630a100aa-7ee56c3f5abdbecbf1.jpg")
+START_PIC = os.environ.get("START_PIC", "https://graph.org/file/c534870ef7fbdfd81e701-66149a3c2b466e5eeb.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/c534870ef7fbdfd81e701-66149a3c2b466e5eeb.jpg")
 
 # Turn this feature on or off using True or False put value inside  ""
 # TRUE for yes FALSE if no 
