@@ -147,7 +147,7 @@ async def start_command(client: Client, message: Message):
 
         if FILE_AUTO_DELETE > 0:
             notification_msg = await message.reply(
-                f"<b>This file will be deleted in {get_exp_time(FILE_AUTO_DELETE)}. Please save or forward it to your saved messages before it gets deleted.</b>"
+                f"<b>⚠️❗ Important Note :🚨\n\nThis file will be deleted in {get_exp_time(FILE_AUTO_DELETE)}. Please save or forward it to your saved messages before it gets deleted.\n\n⚠️ ❗️ಪ್ರಮುಖ ಟಿಪ್ಪಣಿ:🚨\n\nಈ ಮೇಲಿನ 👆🏻ಎಲ್ಲಾ  ಫೈಲ್‌ಗಳನ್ನು {get_exp_time(FILE_AUTO_DELETE)} ನಿಮಿಷಗಳ ನಂತರ ಅಳಿಸಲಾಗುತ್ತದೆ. ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಉಳಿಸಿದ ಸಂದೇಶಗಳನ್ನು ಕಳೆದುಕೊಳ್ಳುವುದನ್ನು ತಪ್ಪಿಸಲು ದಯವಿಟ್ಟು ಈ ಫೈಲ್‌ಗಳನ್ನು ಉಳಿಸಿ ಅಥವಾ ಫಾರ್ವರ್ಡ್ ಮಾಡಿ!</b>"
             )
 
             await asyncio.sleep(FILE_AUTO_DELETE)
