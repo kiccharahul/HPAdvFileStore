@@ -25,16 +25,16 @@ APP_ID = int(os.environ.get("APP_ID", "28269435"))
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "839f282133fe8ee79b4a946095cf4360")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002752916849"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002894568261"))
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "Kicchanayaka")
+OWNER = os.environ.get("OWNER", "mr_hp_raj")
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7508245094"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "8005648537"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Hanuman:hanuman@cluster0.l5toshc.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "Hanuman")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://mrdragon82:mrdragon82@cluster0.25cqmdm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "mrdragon82")
 
 #Time in seconds for message delete, put 0 to never delete
 TIME = int(os.environ.get("TIME", "600"))
